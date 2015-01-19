@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		726D44D81A6D635800D3C5DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 726D44D71A6D635800D3C5DA /* main.m */; };
+		726D44E51A6D653600D3C5DA /* FFTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 726D44E41A6D653600D3C5DA /* FFTree.m */; };
+		726D44E81A6D659F00D3C5DA /* FFTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 726D44E71A6D659F00D3C5DA /* FFTreeNode.m */; };
+		726D44EB1A6D671E00D3C5DA /* NSString+lines.m in Sources */ = {isa = PBXBuildFile; fileRef = 726D44EA1A6D671E00D3C5DA /* NSString+lines.m */; };
+		726D44ED1A6D69BE00D3C5DA /* File1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 726D44E01A6D63F900D3C5DA /* File1.txt */; };
+		726D44EE1A6D69BE00D3C5DA /* File2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 726D44E11A6D640600D3C5DA /* File2.txt */; };
+		726D44F11A6D96AA00D3C5DA /* NSDictionary+sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 726D44F01A6D96AA00D3C5DA /* NSDictionary+sorting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		726D44D21A6D635800D3C5DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = Resources;
+			dstSubfolderSpec = 16;
 			files = (
+				726D44ED1A6D69BE00D3C5DA /* File1.txt in CopyFiles */,
+				726D44EE1A6D69BE00D3C5DA /* File2.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -26,8 +34,16 @@
 		726D44D41A6D635800D3C5DA /* FiftyFiveExamConsoleProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FiftyFiveExamConsoleProgram; sourceTree = BUILT_PRODUCTS_DIR; };
 		726D44D71A6D635800D3C5DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		726D44DE1A6D63A100D3C5DA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		726D44E01A6D63F900D3C5DA /* File1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = File1; path = Resources/File1; sourceTree = SOURCE_ROOT; };
-		726D44E11A6D640600D3C5DA /* File2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = File2; path = Resources/File2; sourceTree = SOURCE_ROOT; };
+		726D44E01A6D63F900D3C5DA /* File1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = File1.txt; path = Resources/File1.txt; sourceTree = SOURCE_ROOT; };
+		726D44E11A6D640600D3C5DA /* File2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = File2.txt; path = Resources/File2.txt; sourceTree = SOURCE_ROOT; };
+		726D44E31A6D653600D3C5DA /* FFTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFTree.h; path = Model/FFTree.h; sourceTree = "<group>"; };
+		726D44E41A6D653600D3C5DA /* FFTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFTree.m; path = Model/FFTree.m; sourceTree = "<group>"; };
+		726D44E61A6D659F00D3C5DA /* FFTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFTreeNode.h; path = Model/FFTreeNode.h; sourceTree = "<group>"; };
+		726D44E71A6D659F00D3C5DA /* FFTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFTreeNode.m; path = Model/FFTreeNode.m; sourceTree = "<group>"; };
+		726D44E91A6D671E00D3C5DA /* NSString+lines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+lines.h"; path = "Categories/NSString+lines.h"; sourceTree = "<group>"; };
+		726D44EA1A6D671E00D3C5DA /* NSString+lines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+lines.m"; path = "Categories/NSString+lines.m"; sourceTree = "<group>"; };
+		726D44EF1A6D96A900D3C5DA /* NSDictionary+sorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+sorting.h"; path = "Categories/NSDictionary+sorting.h"; sourceTree = "<group>"; };
+		726D44F01A6D96AA00D3C5DA /* NSDictionary+sorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+sorting.m"; path = "Categories/NSDictionary+sorting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +76,11 @@
 		726D44D61A6D635800D3C5DA /* FiftyFiveExamConsoleProgram */ = {
 			isa = PBXGroup;
 			children = (
+				726D44EC1A6D672500D3C5DA /* Categories */,
+				726D44E21A6D650900D3C5DA /* Models */,
 				726D44DF1A6D63DD00D3C5DA /* Resources */,
-				726D44DE1A6D63A100D3C5DA /* README.md */,
 				726D44D71A6D635800D3C5DA /* main.m */,
+				726D44DE1A6D63A100D3C5DA /* README.md */,
 			);
 			path = FiftyFiveExamConsoleProgram;
 			sourceTree = "<group>";
@@ -70,10 +88,32 @@
 		726D44DF1A6D63DD00D3C5DA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				726D44E01A6D63F900D3C5DA /* File1 */,
-				726D44E11A6D640600D3C5DA /* File2 */,
+				726D44E01A6D63F900D3C5DA /* File1.txt */,
+				726D44E11A6D640600D3C5DA /* File2.txt */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		726D44E21A6D650900D3C5DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				726D44E31A6D653600D3C5DA /* FFTree.h */,
+				726D44E41A6D653600D3C5DA /* FFTree.m */,
+				726D44E61A6D659F00D3C5DA /* FFTreeNode.h */,
+				726D44E71A6D659F00D3C5DA /* FFTreeNode.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		726D44EC1A6D672500D3C5DA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				726D44E91A6D671E00D3C5DA /* NSString+lines.h */,
+				726D44EA1A6D671E00D3C5DA /* NSString+lines.m */,
+				726D44EF1A6D96A900D3C5DA /* NSDictionary+sorting.h */,
+				726D44F01A6D96AA00D3C5DA /* NSDictionary+sorting.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726D44E81A6D659F00D3C5DA /* FFTreeNode.m in Sources */,
+				726D44EB1A6D671E00D3C5DA /* NSString+lines.m in Sources */,
 				726D44D81A6D635800D3C5DA /* main.m in Sources */,
+				726D44F11A6D96AA00D3C5DA /* NSDictionary+sorting.m in Sources */,
+				726D44E51A6D653600D3C5DA /* FFTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
